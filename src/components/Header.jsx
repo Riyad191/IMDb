@@ -9,7 +9,7 @@ export default function Header() {
         <MenuItem title="Home" address="/" Icon={AiFillHome} />
         <MenuItem title="About" address="/about" Icon={AiFillInfoCircle} />
       </div>
-      <div className="">
+      <div>
         <Link href="/">
           <h2 className="text-2xl">
             <span className="font-bold bg-amber-500 py-1 px-2 rounded-lg mr-1">
